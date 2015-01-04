@@ -3,6 +3,8 @@ GPU-Accelerated 3D Ant Colony Simulation and Visualization
 
 by Dan Andersen (http://www.dan.andersen.name/)
 
+![Preview image](demo1.gif)
+
 Background
 ----------
 
@@ -22,6 +24,8 @@ C++ source code is available in a VS2010 project in the "Source Code" directory.
 Simulation
 ----------
 
+![Detail of nest area](demo2.gif)
+
 The world is simulated using a pair of ping-ponged 3D textures (of size N x N x N). The world state for each cell is encoded in the RGBA values of each pixel: red means there is a nest in the cell, the green level shows how much food remains at the cell, the blue level shows the pheromone trail strength, and alpha is used to mark if an ant is currently present in the cell.
 
 The world simulation is done with a fragment shader that increases the pheromone trail if an ant is in the cell, and otherwise fades the pheromone trail over time.
@@ -34,6 +38,8 @@ Visualization
 -------------
 
 The volume is rendered using a geometry shader, taking as input a single vertex at each grid point, and outputting a set of triangles for a volumetric mesh near that point. It uses the marching cubes algorithm, which evaluates the trail/nest/food/ant value at a point and at 8 surrounding points, does a lookup of 256 possible triangle configurations, and uses linear interpolation to determine vertex locations.
+
+![Marching cubes](demo3.gif)
 
 Results
 -------
