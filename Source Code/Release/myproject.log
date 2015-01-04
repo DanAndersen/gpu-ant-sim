@@ -1,0 +1,53 @@
+﻿Build started 12/4/2014 5:24:14 PM.
+     1>Project "C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\myproject.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\myproject.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AntSim.cpp
+         AntSim.cpp
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\myproject.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:GL glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glui32.lib glew32s.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\myproject.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\myproject.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\myproject.lib" /MACHINE:X86 Release\AntSim.obj
+         Release\main.obj
+         Release\MarchingCubesConstants.obj
+         Release\Utils.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>glui32.lib(algebra3.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(arcball.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_add_controls.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_bitmap_img_data.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_bitmaps.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_button.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_checkbox.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_column.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_control.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_edittext.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_listbox.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_mouse_iaction.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_node.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_panel.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_radio.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_rollout.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_rotation.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_separator.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_spinner.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_statictext.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_string.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_translation.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_window.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(quaternion.obj) : warning LNK4204: 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\vc120.pdb'; linking object as if no debug info
+         myproject.vcxproj -> C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\myproject.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\Release\myproject.exe;#1" /manifest Release\myproject.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\myproject.unsuccessfulbuild".
+         Touching "Release\myproject.lastbuildstate".
+     1>Done Building Project "C:\Users\andersed\Dropbox\Purdue\Graphics - CS 535\FinalProject\Ant_Sim\myproject.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.09
